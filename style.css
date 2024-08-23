@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{
-     --color-1:#0f1016;
-     --text-color:#f0f0f0;
-     --accent-color:#006aff;  
+     --color-1:#f0f0f0;
+     --text-color:#0f1016;
+     --accent-color:rgb(203, 253, 184);  
 }
 *{
     margin: 0;
@@ -88,7 +88,7 @@ nav svg{
         left: 0;
         z-index: 9;
     }
-}
+}  
 
 body {
     font-size: 20px;
@@ -125,19 +125,6 @@ body {
     
 }
 
-#reviews{
-    width: 100%;
-    align-items: center;
-    background-color: #ffffff;
-}
-
-.review_div {
-    width: 50%;
-    box-sizing: border-box;
-    margin-left: 25%;
-
-}
-
 .headerr {
     color: rgb(3, 3, 3);
     font-family: "Poppins", sans-serif;
@@ -151,11 +138,45 @@ body {
 .pg_font {
     color: #393939;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     margin-top: 20px;
     font-size: 2.5rem;
 }
+
+#about{
+    width: 100%;
+    height: 650px;
+    background-color: #fcfcfc;
+    align-items: center;
+    align-content: center;
+}
+
+#about_div{
+    width: 80%;
+    height: 50%;
+    margin-left: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ffffff;
+    border: solid black 2px;
+    border-radius: 30px;
+}
+
+#reviews{
+    width: 100%;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.review_div {
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: 25%;
+
+}
+
+
 @media (max-width: 768px) {
     #home_div {
         flex-direction: column; /* Stack text and review sections vertically */
@@ -194,9 +215,9 @@ body {
         box-sizing: border-box;
     }
     .headerr {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .pg_font {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
